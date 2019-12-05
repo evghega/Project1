@@ -4,6 +4,7 @@ class Person:
     self.id = id
     self.age = age
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 def main():
@@ -33,20 +34,30 @@ def main():
 =======
 <<<<<<< HEAD
     
+=======
+>>>>>>> f84db2e376d89998aa0d545ddd79a19c63cb437c
 
+
+    
 class Student(Person):
 	def _init_(self, avrg, ins):
 		self.average=avrg
 		self.institute=ins
-		
-=======
+
+
 
 class Employee(person):
     def __init__(selcf,salary):
         self.salary = salary
 
+
+        
+
 class WorkingStudent(Employee,Student):
   def __init__(self, same_institute):
     self.same_institude= same_institute
+<<<<<<< HEAD
 >>>>>>> e4ada1c28c46d718ed3ae934e619795b6528e5db
 >>>>>>> 1cd1849eda0c06a2973ca01cf984adef43cdfbb0
+=======
+>>>>>>> f84db2e376d89998aa0d545ddd79a19c63cb437c
