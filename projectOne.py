@@ -23,3 +23,8 @@ class Employee(person):
 class WorkingStudent(Employee,Student):
   def __init__(self, same_institute):
     self.same_institude= same_institute
+
+
+'''''''''''''''''''
+    jkhkbljnj
+    '''''''''''''''''''
