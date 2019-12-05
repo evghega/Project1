@@ -34,8 +34,7 @@ def main():
 =======
 <<<<<<< HEAD
     
-=======
->>>>>>> f84db2e376d89998aa0d545ddd79a19c63cb437c
+
 
 
     
@@ -45,11 +44,7 @@ class Student(Person):
 		self.institute=ins
 <<<<<<< HEAD
 		
-======= 
-=======
 
-
->>>>>>> aae4e1ec72c81d11d8c376a7b7553563cf8cca36
 
 class Employee(person):
     def __init__(selcf,salary):
@@ -64,48 +59,3 @@ class WorkingStudent(Employee,Student):
 <<<<<<< HEAD
 
 
-'''''''''''''''''''
-    jkhkbljnj
-    '''''''''''''''''''
-=======
-<<<<<<< HEAD
->>>>>>> e4ada1c28c46d718ed3ae934e619795b6528e5db
->>>>>>> 1cd1849eda0c06a2973ca01cf984adef43cdfbb0
-=======
->>>>>>> f84db2e376d89998aa0d545ddd79a19c63cb437c
-
-
-
-<<<<<<< HEAD
-"test tzlil"
->>>>>>> aae4e1ec72c81d11d8c376a7b7553563cf8cca36
-
-
-def edf
-edffe
-f84db2e376d89998aa0d545ddd79a19c63cb437cw
-f84db2e376d89998aa0d545ddd79a19c63cb437cwwf
-ew
-few
-f
-we
-few
-f
-ew
-few
-f
-ew
-few
-few
-fewf
-ew
-fw
-():
-	pass
-=======
-<<<<<<< HEAD
-
-=======
-
->>>>>>> a402b285acc5efc0e292cccd95e114a5acc1e629
->>>>>>> ffd132e7f9b55c01c30aeb2ad0ac273e76bcbeea
