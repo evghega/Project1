@@ -1,34 +1,49 @@
 class Person:
-  def __init__(self, name,id, age):
-    self.name = name
-    self.id = id
-    self.age = age
-<<<<<<< HEAD
-<<<<<<< HEAD
+    def __init__(self, name, id, age):
+        self.name = name
+        self.id = id
+        self.age = age
+
+
+class Student(Person):
+    def _init_(self, avrg, ins):
+        self.average = avrg
+        self.institute = ins
+
+
+class Employee(Person):
+    def __init__(self, salary):
+        self.salary = salary
+
+
+class WorkingStudent(Employee, Student):
+    def __init__(self, same_institute):
+        self.same_institude = same_institute
 
 
 def main():
     size = input('Enter size for arr')
-    arr=[]
+    arr = []
     for i in range(size):
         type = input("Enter type of person(Studen , Employee,WorkingStudent):")
         if type == "student":
             name = input("Enter name:")
-            id = input ("Enter ID:")
+            id = input("Enter ID:")
             age = input("Enter age:")
             avarage = input("Enter avareage:")
             institute = input("Enter intitute")
-            arr[i]=Studen(name,id,age,avarage,institute)
+            arr[i] = Student(name, id, age, avarage, institute)
         if type == "Employee":
             name = input("Enter name:")
             id = input("Enter ID:")
             age = input("Enter age:")
             salary = input("Enter salary")
-            arr[i] = Studen(name, id, age,salary)
+            arr[i] = Employee(name, id, age, salary)
         if type == "WorkingStudent ":
             name = input("Enter name:")
             id = input("Enter ID:")
             age = input("Enter age:")
+<<<<<<< HEAD
             same_institute = input ("Enter same_institute")
             arr[i] = Studen(name, id, age,same_institute)
 =======
@@ -70,7 +85,9 @@ class WorkingStudent(Employee,Student):
 
 
 <<<<<<< HEAD
-
 =======
+            same_institute = input("Enter same_institute")
+            arr[i] = WorkingStudent(name, id, age, same_institute)
+>>>>>>> ffab5249423a98f24bb5b3dfa2680d1122fcff82
 
->>>>>>> a402b285acc5efc0e292cccd95e114a5acc1e629
+
