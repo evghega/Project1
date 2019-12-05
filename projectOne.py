@@ -25,7 +25,7 @@ def main():
     size = input('Enter size for arr')
     arr = []
     for i in range(size):
-        type = input("Enter type of person(Studen , Employee,WorkingStudent):")
+        type = input("Enter type of person(Student , Employee,WorkingStudent):")
         if type == "student":
             name = input("Enter name:")
             id = input("Enter ID:")
@@ -43,51 +43,8 @@ def main():
             name = input("Enter name:")
             id = input("Enter ID:")
             age = input("Enter age:")
-<<<<<<< HEAD
+
             same_institute = input ("Enter same_institute")
-            arr[i] = Studen(name, id, age,same_institute)
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> f84db2e376d89998aa0d545ddd79a19c63cb437c
-
+            arr[i] = Student(name, id, age,same_institute)
 
     
-class Student(Person):
-	def _init_(self, avrg, ins):
-		self.average=avrg
-		self.institute=ins
-<<<<<<< HEAD
-		
-=======
-=======
-
-
->>>>>>> aae4e1ec72c81d11d8c376a7b7553563cf8cca36
-
-class Employee(person):
-    def __init__(selcf,salary):
-        self.salary = salary
-
-
-        
-
-class WorkingStudent(Employee,Student):
-  def __init__(self, same_institute):
-    self.same_institude= same_institute
-<<<<<<< HEAD
->>>>>>> e4ada1c28c46d718ed3ae934e619795b6528e5db
->>>>>>> 1cd1849eda0c06a2973ca01cf984adef43cdfbb0
-=======
->>>>>>> f84db2e376d89998aa0d545ddd79a19c63cb437c
-
-
-
-<<<<<<< HEAD
-=======
-            same_institute = input("Enter same_institute")
-            arr[i] = WorkingStudent(name, id, age, same_institute)
->>>>>>> ffab5249423a98f24bb5b3dfa2680d1122fcff82
-
-
