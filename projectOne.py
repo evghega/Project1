@@ -11,7 +11,7 @@ class Student(Person):
 		self.average=avrg
 		self.institute=ins
 		
-=======
+======= """DONT TELL ME WHAT TO DO"""
 
 class Employee(person):
     def __init__(self,salary):
