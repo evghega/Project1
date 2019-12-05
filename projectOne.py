@@ -78,9 +78,4 @@ def main():
 
 main()
 =======
-
-            same_institute = input ("Enter same_institute")
-            arr[i] = Student(name, id, age,same_institute)
->>>>>>> c14a6db1e9079f9396f64c346034cd594a1846dd
-
     
