@@ -78,3 +78,26 @@ class WorkingStudent(Employee,Student):
 
 "test tzlil"
 >>>>>>> aae4e1ec72c81d11d8c376a7b7553563cf8cca36
+
+
+def edf
+edffe
+f84db2e376d89998aa0d545ddd79a19c63cb437cw
+f84db2e376d89998aa0d545ddd79a19c63cb437cwwf
+ew
+few
+f
+we
+few
+f
+ew
+few
+f
+ew
+few
+few
+fewf
+ew
+fw
+():
+	pass
