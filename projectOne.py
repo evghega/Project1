@@ -3,6 +3,7 @@ class Person:
     self.name = name
     self.id = id
     self.age = age
+<<<<<<< HEAD
     
 
 class Student(Person):
@@ -10,3 +11,10 @@ class Student(Person):
 		self.average=avrg
 		self.institute=ins
 		
+=======
+
+
+class WorkingStudent(Employee,Student):
+  def __init__(self, same_institute):
+    self.same_institude= same_institute
+>>>>>>> e4ada1c28c46d718ed3ae934e619795b6528e5db
