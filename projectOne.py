@@ -41,6 +41,9 @@ class Student(Person):
 		
 =======
 
+class Employee(person):
+    def __init__(self,salary):
+        self.salary = salary
 
 class WorkingStudent(Employee,Student):
   def __init__(self, same_institute):
