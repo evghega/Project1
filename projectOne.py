@@ -45,7 +45,7 @@ class Student(Person):
 		self.institute=ins
 <<<<<<< HEAD
 		
-======= 
+=======
 =======
 
 
