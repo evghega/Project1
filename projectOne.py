@@ -45,7 +45,7 @@ class Student(Person):
 		self.institute=ins
 <<<<<<< HEAD
 		
-======= """DONT TELL ME WHAT TO DO"""
+======= 
 =======
 
 
@@ -70,7 +70,7 @@ class WorkingStudent(Employee,Student):
 
 
 <<<<<<< HEAD
-test snir
+
 =======
-"test tzlil"
+
 >>>>>>> a402b285acc5efc0e292cccd95e114a5acc1e629
