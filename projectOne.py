@@ -45,7 +45,7 @@ class Student(Person):
 		self.institute=ins
 <<<<<<< HEAD
 		
-======= """DONT TELL ME WHAT TO DO"""
+======= 
 =======
 
 
@@ -76,6 +76,7 @@ class WorkingStudent(Employee,Student):
 
 
 
+<<<<<<< HEAD
 "test tzlil"
 >>>>>>> aae4e1ec72c81d11d8c376a7b7553563cf8cca36
 
@@ -101,3 +102,10 @@ ew
 fw
 ():
 	pass
+=======
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> a402b285acc5efc0e292cccd95e114a5acc1e629
+>>>>>>> ffd132e7f9b55c01c30aeb2ad0ac273e76bcbeea
