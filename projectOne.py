@@ -3,6 +3,7 @@ class Person:
     self.name = name
     self.id = id
     self.age = age
+<<<<<<< HEAD
 
 
 def main():
@@ -29,3 +30,20 @@ def main():
             age = input("Enter age:")
             same_institute = input ("Enter same_institute")
             arr[i] = Studen(name, id, age,same_institute)
+=======
+<<<<<<< HEAD
+    
+
+class Student(Person):
+	def _init_(self, avrg, ins):
+		self.average=avrg
+		self.institute=ins
+		
+=======
+
+
+class WorkingStudent(Employee,Student):
+  def __init__(self, same_institute):
+    self.same_institude= same_institute
+>>>>>>> e4ada1c28c46d718ed3ae934e619795b6528e5db
+>>>>>>> 1cd1849eda0c06a2973ca01cf984adef43cdfbb0
