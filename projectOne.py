@@ -43,8 +43,13 @@ class Student(Person):
 	def _init_(self, avrg, ins):
 		self.average=avrg
 		self.institute=ins
+<<<<<<< HEAD
+		
+======= """DONT TELL ME WHAT TO DO"""
+=======
 
 
+>>>>>>> aae4e1ec72c81d11d8c376a7b7553563cf8cca36
 
 class Employee(person):
     def __init__(selcf,salary):
@@ -64,4 +69,8 @@ class WorkingStudent(Employee,Student):
 
 
 
+<<<<<<< HEAD
 test snir
+=======
+"test tzlil"
+>>>>>>> a402b285acc5efc0e292cccd95e114a5acc1e629
