@@ -25,7 +25,7 @@ def main():
     size = int(input('Enter size for arr'))
     arr = []
     for i in range(size):
-        type = input("Enter type of person(Studen , Employee,WorkingStudent):")
+        type = input("Enter type of person(Student , Employee,WorkingStudent):")
         if type == "student":
             name = input("Enter name:")
             id = input("Enter ID:")
@@ -43,6 +43,7 @@ def main():
             name = input("Enter name:")
             id = input("Enter ID:")
             age = input("Enter age:")
+<<<<<<< HEAD
 
             same_institute = input ("Enter same_institute")
             arr[i] = Student(name, id, age,same_institute)
@@ -50,4 +51,10 @@ def main():
 
 
 main()
+=======
 
+            same_institute = input ("Enter same_institute")
+            arr[i] = Student(name, id, age,same_institute)
+>>>>>>> c14a6db1e9079f9396f64c346034cd594a1846dd
+
+    
