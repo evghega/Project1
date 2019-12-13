@@ -21,7 +21,7 @@ class WorkingStudent(Employee, Student):
         self.same_institude = same_institute
 
 
-<<<<<<< HEAD
+
 size = input("Enter size for arr'")
 arr = []
 for i in range(size):
@@ -45,7 +45,9 @@ for i in range(size):
         age = input("Enter age:")
         same_institute = input("Enter same_institute")
         arr[i] = WorkingStudent(name, id, age, same_institute)
-=======
+
+
+
 def main():
     size = int(input('Enter size for arr'))
     arr = []
@@ -68,8 +70,9 @@ def main():
             name = input("Enter name:")
             id = input("Enter ID:")
             age = input("Enter age:")
-<<<<<<< HEAD
->>>>>>> f67e043c72c36879736117fc108a25583b9d850b
+
+
+
 
             same_institute = input ("Enter same_institute")
             arr[i] = Student(name, id, age,same_institute)
@@ -77,5 +80,5 @@ def main():
 
 
 main()
-=======
+
     
